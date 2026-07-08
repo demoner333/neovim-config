@@ -1,0 +1,20 @@
+{
+  "languageserver": {
+    "asm-lsp": {
+      "command": "asm-lsp",
+      "filetypes": ["s", "S"],
+      "rootPatterns": [".git/"]
+    }
+  }
+},
+
+{
+  "languageserver": {
+    "coc-nasm": {
+      "command": "asm-lsp",
+      "filetypes": ["nasm", "asm"],
+      "rootPatterns": [".git/"]
+    }
+  }
+}
+
